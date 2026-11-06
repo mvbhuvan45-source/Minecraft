@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minecraft World</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h2>⛏ MINECRAFT WORLD</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#modes">Game Modes</a>
+        <a href="#characters">Characters</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#videos">Videos</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <button id="themeBtn">🌙</button>
+</header>
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>WELCOME TO MINECRAFT WORLD</h1>
+
+        <p>
+            Explore, Build, Create and Survive.
+            Discover an amazing block-based world
+            full of adventures and creativity.
+        </p>
+
+        <a href="#about" class="btn">Explore Now</a>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Minecraft</h2>
+
+    <div class="about-box">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScmG0Vv_O1t9jZlaipmNVhJQANzpD0SDt-8-5VWWtSTA&s=10"
+             alt="Minecraft inspired block world">
+
+        <div>
+            <h3>What is Minecraft?</h3>
+
+            <p>
+                Minecraft is a popular 3D sandbox video game
+                developed by Mojang Studios and officially
+                released in 2011.
+            </p>
+
+            <p>
+                Players can explore a virtual world,
+                collect resources, build houses, craft tools,
+                fight enemies and create amazing structures.
+            </p>
+
+            <p>
+                Minecraft encourages creativity,
+                imagination, teamwork and problem-solving.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GAME MODES -->
+
+<section id="modes">
+
+    <h2>Game Modes</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=600"
+                 alt="Survival gaming">
+            <h3>Survival Mode</h3>
+            <p>Collect resources, build shelters and survive.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=600"
+                 alt="Gaming setup">
+            <h3>Creative Mode</h3>
+            <p>Build anything using unlimited resources.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600"
+                 alt="Adventure gaming">
+            <h3>Adventure Mode</h3>
+            <p>Explore maps and complete exciting challenges.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600"
+                 alt="Gaming">
+            <h3>Spectator Mode</h3>
+            <p>Explore and observe the Minecraft world.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CHARACTERS -->
+
+<section id="characters">
+
+    <h2>Minecraft Characters</h2>
+
+    <input type="text" id="search"
+           placeholder="Search characters...">
+
+    <div class="cards" id="characterList">
+
+        <div class="character card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt9HiLWF_xY4ah0rtavPuGL-fbuMQwgv30XX4fn4_Dxg&s=10"
+                 alt="Steve">
+            <h3>Steve</h3>
+            <p>Main playable character.</p>
+        </div>
+
+        <div class="character card">
+            <img src="data:image/jpeg;base64,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"
+                 alt="Alex">
+            <h3>Alex</h3>
+            <p>Playable character.</p>
+        </div>
+
+        <div class="character card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUjvgJzcbvrOQT5FpzIDuAXte5zdbQ-dLH2Ah1QHHhw&s=10"
+                 alt="Creeper">
+            <h3>Creeper</h3>
+            <p>A famous hostile creature.</p>
+        </div>
+
+        <div class="character card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZvcafkLn7A4B3J3rNPFmujbCwMqex3tQ5xAEUeUpbw&s=10"
+                 alt="Enderman">
+            <h3>Enderman</h3>
+            <p>A creature that can teleport.</p>
+        </div>
+
+        <div class="character card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVj8dtDkqEwvhs9wCy7XT9CvPHdI6D-MSMLspDap7Xw&s"
+                 alt="Zombie">
+            <h3>Zombie</h3>
+            <p>A common enemy in the game.</p>
+        </div>
+
+        <div class="character card">
+            <img src="data:image/jpeg;base64,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"
+                 alt="Skeleton">
+            <h3>Skeleton</h3>
+            <p>An enemy that uses a bow.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RESOURCES -->
+
+<section id="resources">
+
+    <h2>Minecraft Resources</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🪵 Wood</h3>
+            <p>Used for building and crafting.</p>
+        </div>
+
+        <div class="card">
+            <h3>⛓ Iron</h3>
+            <p>Used for tools and armour.</p>
+        </div>
+
+        <div class="card">
+            <h3>💎 Diamond</h3>
+            <p>Used to make powerful equipment.</p>
+        </div>
+
+        <div class="card">
+            <h3>🟨 Gold</h3>
+            <p>Used for crafting and trading.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚫ Coal</h3>
+            <p>Used as fuel and for torches.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔴 Redstone</h3>
+            <p>Used to create machines and circuits.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DIMENSIONS -->
+
+<section id="dimensions">
+
+    <h2>Minecraft Dimensions</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌳 Overworld</h3>
+            <p>The main world containing forests, oceans, villages and mountains.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔥 Nether</h3>
+            <p>A dangerous dimension filled with lava and unique creatures.</p>
+        </div>
+
+        <div class="card">
+            <h3>🐉 The End</h3>
+            <p>A mysterious dimension where players encounter the Ender Dragon.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PHOTO GALLERY -->
+
+<section id="gallery">
+
+    <h2>Minecraft Photo Gallery</h2>
+
+    <div class="gallery">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScmG0Vv_O1t9jZlaipmNVhJQANzpD0SDt-8-5VWWtSTA&s=10"
+             alt="Block world">
+
+        <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=700"
+             alt="Gaming world">
+
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=700"
+             alt="Gaming setup">
+
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=700"
+             alt="Gaming adventure">
+
+        <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=700"
+             alt="Gaming computer">
+
+        <img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=700"
+             alt="Video game">
+
+    </div>
+
+</section>
+
+<!-- VIDEO GALLERY -->
+
+<section id="videos">
+
+    <h2>Minecraft Video Gallery</h2>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <iframe
+                src="https://www.youtube.com/embed/MmB9b5njVbA"
+                title="Minecraft official trailer"
+                allowfullscreen>
+            </iframe>
+            <h3>Minecraft Official Trailer</h3>
+        </div>
+
+        <div class="video-card">
+            <iframe
+                src="https://www.youtube.com/embed/4O4Bq9l5f7Y"
+                title="Minecraft gameplay video"
+                allowfullscreen>
+            </iframe>
+            <h3>Minecraft Gameplay</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- QUIZ -->
+
+<section id="quiz">
+
+    <h2>Minecraft Quiz</h2>
+
+    <div class="quiz-box">
+
+        <h3 id="question">Which creature can teleport?</h3>
+
+        <button class="answer" onclick="checkAnswer(0)">Zombie</button>
+
+        <button class="answer" onclick="checkAnswer(1)">Enderman</button>
+
+        <button class="answer" onclick="checkAnswer(2)">Skeleton</button>
+
+        <p id="result"></p>
+
+        <button class="btn" onclick="nextQuestion()">Next Question</button>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>⛏ MINECRAFT WORLD</h2>
+
+    <p>Explore | Build | Create | Survive</p>
+
+    <p>Fan-made educational website. Not affiliated with Mojang Studios.</p>
+
+    <p>© 2026 Minecraft World</p>
+    <p>done by Charan
+               Bhuvan
+            praneeth
+            Abhinav
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
